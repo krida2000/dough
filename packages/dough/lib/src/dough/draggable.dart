@@ -130,7 +130,7 @@ class _DraggableDoughState<T extends Object> extends State<DraggableDough<T>> {
   @override
   void didUpdateWidget(covariant DraggableDough<T> oldWidget) {
     super.didUpdateWidget(oldWidget);
-    _controllerTracker.reset();
+    //_controllerTracker.reset();
   }
 
   @override
