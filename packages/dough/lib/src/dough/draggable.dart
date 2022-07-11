@@ -211,7 +211,7 @@ class _DraggableDoughState<T extends Object> extends State<DraggableDough<T>> {
             controller.stop();
             widget.onDoughBreak?.call();
             if (prefs.useHapticsOnBreak) {
-              HapticFeedback.selectionClick();
+              HapticFeedback.lightImpact();
             }
           } else {
             controller.update(
