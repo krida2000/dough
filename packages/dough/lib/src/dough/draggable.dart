@@ -166,6 +166,7 @@ class _DraggableDoughState<T extends Object> extends State<DraggableDough<T>> {
         onDragEnd: widget.onDragEnd,
         onDragCompleted: widget.onDragCompleted,
         onDragStarted: widget.onDragStarted,
+        hapticFeedbackOnStart: false,
         child: widget.child,
       );
     } else {
